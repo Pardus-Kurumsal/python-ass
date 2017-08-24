@@ -1,0 +1,31 @@
+python-ass (0.4.2-2pardus1) onyedi; urgency=medium
+
+  * Update debian files
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 24 Aug 2017 13:47:36 +0300
+
+python-ass (0.4.2-2) unstable; urgency=medium
+
+  * add python3-ass packages. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Thu, 12 May 2016 11:36:28 +0800
+
+python-ass (0.4.2-1) xenial; urgency=medium
+
+  * update to 0.4.2. 
+
+ -- lilongyu <leaeasy@gmail.com>  Thu, 12 May 2016 11:31:13 +0800
+
+python-ass (0.4.1-2.1) xenial; urgency=medium
+
+  [ Deepin Packages Builder ]
+  * remove build python-support. 
+
+ -- lilongyu <leaeasy@gmail.com>  Thu, 12 May 2016 10:43:57 +0800
+
+python-ass (0.4.1-1) trusty; urgency=low
+
+  * rebuild with trusty. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 17 Mar 2014 16:55:33 +0800
+

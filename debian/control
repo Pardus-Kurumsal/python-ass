@@ -1,0 +1,22 @@
+Source: python-ass
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Section: python
+Priority: optional
+Build-Depends: autotools-dev, cdbs (>= 0.4.85~), debhelper (>= 7.0.1), dh-python,
+ python-all-dev, python3-all-dev, python-setuptools, python3-setuptools,
+ pkg-config, libass-dev
+Standards-Version: 3.9.8
+X-Python-Version: >= 2.7
+
+Package: python-ass
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Breaks: ${python:Breaks}
+Description: ${python:Provides} Wrapper for Python-${python:Versions} 
+ A library for parsing and manipulating Advanced SubStation Alpha subtitle files.
+ 
+Package: python3-ass
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Description: ${python3:Provides} Wrapper for Python-${python3:Versions} 
+ A library for parsing and manipulating Advanced SubStation Alpha subtitle files.
